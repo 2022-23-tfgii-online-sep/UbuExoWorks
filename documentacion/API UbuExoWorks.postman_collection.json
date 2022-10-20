@@ -235,7 +235,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n    \"login\":\"asocastro@gmail.com\",\r\n    \"password\": \"probando\",\r\n    \"imei\": \"121212\"\r\n}",
+					"raw": "{\r\n    \"login\":\"a@gmail.com\",\r\n    \"password\": \"probando\",\r\n    \"imei\": \"121212\"\r\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -1368,7 +1368,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "https://miubuapp.herokuapp.com/api/usuario/recuperaPassword?email=\"a.socastro@gmail.com\"",
+					"raw": "https://miubuapp.herokuapp.com/api/usuario/recuperaPassword?email=\"a@gmail.com\"",
 					"protocol": "https",
 					"host": [
 						"miubuapp",
@@ -1383,7 +1383,7 @@
 					"query": [
 						{
 							"key": "email",
-							"value": "\"a.socastro@gmail.com\"",
+							"value": "\"a@gmail.com\"",
 							"description": "String"
 						}
 					]
@@ -1396,7 +1396,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://miubuapp.herokuapp.com/api/usuario/recuperaPassword?email=asocastro@gmail.com",
+							"raw": "https://miubuapp.herokuapp.com/api/usuario/recuperaPassword?email=a@gmail.com",
 							"protocol": "https",
 							"host": [
 								"miubuapp",
@@ -1411,7 +1411,7 @@
 							"query": [
 								{
 									"key": "email",
-									"value": "asocastro@gmail.com",
+									"value": "a@gmail.com",
 									"description": "String"
 								}
 							]
@@ -1479,7 +1479,7 @@
 						"method": "GET",
 						"header": [],
 						"url": {
-							"raw": "https://miubuapp.herokuapp.com/api/usuario/recuperaPassword?email=asocastro@coruna.gal",
+							"raw": "https://miubuapp.herokuapp.com/api/usuario/recuperaPassword?email=a@coruna.gal",
 							"protocol": "https",
 							"host": [
 								"miubuapp",
@@ -1494,7 +1494,7 @@
 							"query": [
 								{
 									"key": "email",
-									"value": "asocastro@coruna.gal",
+									"value": "a@coruna.gal",
 									"description": "String"
 								}
 							]
